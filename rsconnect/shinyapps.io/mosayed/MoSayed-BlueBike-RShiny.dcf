@@ -1,0 +1,13 @@
+name: MoSayed-BlueBike-RShiny
+title: MoSayed-BlueBike-RShiny
+username:
+account: mosayed
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1785533
+bundleId: 2787564
+url: https://mosayed.shinyapps.io/MoSayed-BlueBike-RShiny/
+when: 1581307697.77291
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Archive.zip
