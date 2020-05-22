@@ -2,5 +2,4 @@
 *.zip
 hubway4.jpg
 /data
-.gitignore
 .Rhistory
