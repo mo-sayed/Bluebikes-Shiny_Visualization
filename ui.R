@@ -28,7 +28,7 @@ dashboardPage(
                         box(plotOutput("dailytripduration")),
                         box(plotOutput("dailyusertype")),
                         box(sliderInput('duration', label = 'Trip Duration (minutes)',
-                                        min = 1,max = 60,value = c(1,30)
+                                        min = 1,max = 30,value = c(1,30)
                         )),
                         box(sliderInput("time", label = 'Time of Day (hour)',
                                         min = 0,max = 24,value = c(7,12)
@@ -66,9 +66,9 @@ dashboardPage(
                     fluidRow(
                         box(leafletOutput("bikeheatmap"), width = 12),
                         box(sliderInput('riderage', label = 'Age Range of Cyclist',
-                                        min = min(df0$Age),
-                                        max = max(df0$Age),
-                                        value = c(min(df0$Age), max(df0$Age)
+                                        min = min(df0$AGE),
+                                        max = max(df0$AGE),
+                                        value = c(min(df0$AGE), max(df0$AGE)
                         ))
                     )
             )),

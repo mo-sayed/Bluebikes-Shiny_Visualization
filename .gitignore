@@ -1,1 +1,5 @@
 *.csv
+*.zip
+*.jpg
+/data
+.Rhistory
