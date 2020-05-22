@@ -1,5 +1,6 @@
 *.csv
 *.zip
-*.jpg
+hubway4.jpg
 /data
+.gitignore
 .Rhistory
